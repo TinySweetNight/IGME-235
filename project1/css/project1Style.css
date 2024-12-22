@@ -1,0 +1,366 @@
+html {scroll-behavior: smooth;}
+
+@font-face {
+    font-family: "alarm clock";
+    src: url("../media/alarm_clock/alarm clock.ttf");
+ }
+ 
+
+ body{
+    display: grid;
+     margin-left: 12rem;
+     margin-right: 12rem;
+     background-image: url("../media/vintage-concrete.png");
+ }
+
+
+ main{
+    background-color: #f5e6c6;
+    padding: 1.5rem;
+ }
+ 
+ 
+ 
+ /* Folder */
+ footer h2{
+     font-size: 1.7em;
+     background-color: rgb(219, 197, 156);
+     max-width: 20rem;
+     margin-bottom: 0rem;
+ 
+     text-align: center;
+     padding-top: .5em;
+ 
+     color: #a37510;
+     font-family: 'Arial Narrow Bold', sans-serif;
+ }
+ 
+ #folderBody{
+     display:grid;
+     grid-template-columns: auto auto auto;
+     grid-auto-flow: column;
+     background-color: rgb(219, 197, 156);
+     padding: 1rem;
+ }
+ 
+ .divider{
+     border-right: 2px solid black;
+     width: auto;
+     margin-right: 3em;
+     margin-left: 2em;
+ 
+     font-size: .8em;
+     font-family: Tahoma, sans-serif;
+    
+ }
+ 
+ .divider p{
+    height: auto;
+    margin-left: -1em;
+    margin-right: 1em;
+ }
+ 
+ /*Folder Imgs */
+ #endSide{
+     border-right: none;
+ }
+ 
+ #rotate{
+     rotate: 5deg;
+     margin-right: .5em;
+ }
+ 
+ #computer{
+     margin-top: 2rem;
+     margin-left: 1em;
+ }
+ 
+ /*Main Imgs */
+ img{
+     border: .2rem dashed black;
+     max-width: 100%;
+     float:right;
+     width: 100px;
+ }
+ 
+ #poster{
+     display:block;
+     float:right;
+     rotate: 5deg;
+     width: 13em;
+     margin-left: 1rem;
+     margin-right: -8rem;
+     margin-top: 3rem;
+     
+  }
+ 
+  #monkey{
+     width: 40em;
+     height: auto;
+     margin-right: 6rem;
+     margin-left: 1rem;
+     margin-top: 2rem;
+     border: 1rem solid black; 
+  }
+ 
+ 
+  main section{
+     padding-left: 1rem;
+  
+  }
+ 
+  /* main */
+ 
+  main, header{
+     margin-top:2rem;
+     margin-left: 8rem;
+     margin-right: 8rem;
+  }
+ 
+ 
+ .start{
+    grid-column: 1 / 2;
+ 
+ }
+ 
+ .sidea{
+    grid-column: 2/2;
+ }
+ 
+ .sideb{
+    grid-column:3/3;
+ }
+ 
+  
+  main div{
+    display: grid;
+    grid-template-columns: 20rem 24rem 24rem;
+    grid-template-rows: auto;
+    align-items: end;
+    column-gap: 4em;
+ 
+  }
+ 
+ 
+  hr{
+     height: .2em;
+     background-color: black;
+  }
+ 
+  /*time tunnel*/
+  #topBar{
+     background-color: #7e5545;
+     padding-left: 2rem;
+     padding-bottom: .1em;
+     color: white; 
+     font-size: 18px;     
+  }
+
+  #topBar div{
+    display: flex;
+    justify-content: start;
+  }
+ 
+  #topBar hr{
+     background-color: white;
+     height: .2px;
+     margin-top: -1.3em;
+     margin-bottom: 1em;
+     margin-left: -1.8em;
+  }
+ 
+  #topBar p, a{
+     border-right: .2px solid white;
+     width: 8rem;
+     height: auto;
+     margin-top: 0em;
+     
+     text-align: center;
+     font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+     font-size: 1.5rem;
+  }
+ 
+  /*header*/
+  header h1{
+     font-size: 5em;
+     margin-bottom: 0px;
+     font-family: 'Arial Narrow Bold', sans-serif;
+     
+  }
+ 
+  header h2{
+     font-size: 1.5em;
+     margin-bottom: 0px;
+     margin-top: 0px;
+     font-family: 'Arial', sans-serif;
+     
+  }
+ 
+  h3{
+     font-size: 1.5em;
+     color: #a37510;
+     font-family: 'Arial Narrow Bold', sans-serif;
+  }
+ 
+  b{
+     color: #a37510;
+  }
+ 
+  span{
+     background-color: black;
+     padding: .4rem;
+     color: red;
+     font-family: "alarm clock";
+     font-size: 7rem;
+  }
+ 
+  /*Links*/
+  a{
+    margin-bottom: 1em;
+  }
+
+  a:link{
+     color: rgb(255, 255, 255);
+  }
+ 
+  a:visited{
+    color: #daa73a;;
+  }
+ 
+  a:focus{
+    color: #a37510;
+  }
+ 
+  a:hover{
+    color: #a37510;;
+  }
+ 
+  a:active{
+    color: red;
+  }
+
+
+ /*Smaller screen*/
+  @media only screen and (max-width: 1000px) 
+  {
+    #topBar div{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column wrap;
+        align-self:center;
+      }
+
+      #topBar p, a{
+        border-right: none;
+        width: auto;
+        height: auto;
+        margin-top: 0em;
+        
+        text-align: center;
+        font-family:'Gill Sans', 'Gill Sans MT','Trebuchet MS', sans-serif;
+        font-size: 1.5rem;
+     }
+
+
+
+    span{
+        background-color: black;
+        padding: .4rem;
+        color: red;
+        font-family: "alarm clock";
+        font-size: 4rem;
+     }
+
+
+     header h1{
+        font-size: 2em;
+        margin-bottom: 0px;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        
+     }
+    
+     header h2{
+        padding: .4rem;
+        font-size: 1em;
+        width:80vw;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: 'Arial', sans-serif;
+        
+     }
+     
+      body{
+         display: grid;
+         max-width: 100%;
+         margin-left: 2rem;
+         margin-right: 1rem;
+         grid-template-columns: auto;
+         justify-content: center;
+         align-self: stretch;
+     }
+
+     main, header{
+        margin-top:1rem;
+        margin-left: 1em;
+        margin-right: 1em;
+     }
+
+
+     #poster{
+        float:none;
+        width: 6em;
+        margin-left: 1rem;
+        margin-right: 50vw;
+        margin-top: -18rem;
+        margin-bottom: 30vw;
+        
+     }
+    
+     #monkey{
+        float:none;
+        width: 20em;
+        border: 1rem solid black; 
+     }
+    
+     
+     img{
+        float: left;
+     }
+     
+     .start{
+      grid-column: 1 / 1;
+ 
+     }
+ 
+      .sidea{
+      grid-column: 1/1;
+    }
+ 
+     .sideb{
+     grid-column:1/1;
+    }
+ 
+
+     main div{
+        display: grid;
+        grid-template-columns: 50vw;
+        grid-auto-flow: row;
+        align-items: end;
+        column-gap: 1em;
+     
+      }
+
+      
+ 
+     #folderBody{
+         display:grid;
+         grid-template-columns: 50vw 50vw;
+         grid-auto-flow: row;
+         background-color: rgb(219, 197, 156);
+         padding: 1rem;
+     }
+     
+ 
+  }
+ 
