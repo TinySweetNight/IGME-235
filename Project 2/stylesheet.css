@@ -1,0 +1,114 @@
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    text-align: center;
+    background-image: url('memphis-mini-dark.webp');
+    background-repeat: repeat;
+    background-position: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    
+}
+
+h1{
+   font-family: "Permanent marker";
+   letter-spacing: .2em;
+   text-decoration: underline;
+   color:rgb(226, 95, 193);
+   background-color: #642264;
+   padding: .2em;
+   font-size: 6vw;
+   border-radius: .5em;
+   box-shadow:0 .1em .1em 0 #421742;
+  
+}
+
+p
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3em;
+    background-color: rgb(224, 110, 228);
+    margin: auto;
+    margin-top: 1vw;
+    border-radius: .5em;
+}
+p li
+{
+    text-align: left;
+}
+
+div{
+    border-radius: 1em;
+    background-color: #501c50;
+    opacity: 95%;
+    width:fit-content;
+    margin: auto;
+    margin-top: 1vw;
+    padding: 1vw;
+    
+}
+
+#forms{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    word-spacing: 1em;
+    background-color: rgb(119, 59, 134);
+    color:rgb(248, 140, 230);
+    padding: 2rem 1rem;
+  
+}
+
+
+button{
+    transition-duration: 0.4s;
+    background-color: #501c50;
+    border: 2px solid #fc7fcc;
+    border-radius: 30px;
+    box-shadow: #022414 4px 4px 0 0;
+    color: #fa6fc5;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+}
+
+button:hover{
+    background-color: #ff68d2; 
+    color:  #fbeee0;
+}
+
+button:active{
+    background-color: #992489; 
+}
+
+input, option, select{
+    background-color:#ff68d2; 
+}
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+    background: #d371d3;
+    border-radius: 10px;
+  }
+  
+ /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: #ce3fc2; 
+  }
+      
+
+::-webkit-scrollbar{
+    background-color:#501c50;
+}
+
+
+:link { color:#ff68d2; }
+
+link:active{
+    color:#ff68d2; 
+}
+

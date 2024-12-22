@@ -1,0 +1,149 @@
+body{
+    text-align: center;
+    background-image: url(media/leaves.jpg);
+    background-repeat: repeat;
+    
+
+}
+
+.charm-regular {
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.charm-bold {
+  font-family: "Charm", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+h1{
+    color:goldenrod;
+    font-size: 3em;
+    font-family: "Charm", cursive;
+    background-color:#302B05;
+    width: auto;
+    margin-left: 2em;
+    margin-right: 2em;
+    border:.2em solid #D7CE97;
+    border-radius: .2em;
+    box-shadow:0 .2em .2em 0 #291e0e;
+    
+
+}
+
+#together{
+    border-radius: .5em;
+    width: fit-content;
+    background-color:#302B05;
+    padding: 2em;
+    margin:auto;
+    border:.5em solid #D7CE97;
+    box-shadow:0 .5em .5em 0 #291e0e;
+    
+ 
+}
+
+#top, #bottom{
+background-color: #62782F;
+padding: 1em;
+border:.2em solid #302B05;
+font-family: Times, serif;
+}
+
+#top{
+   position: relative;
+   color:#D7CE97;
+   font-size: 1.3em;
+   padding-bottom: .1em;
+}
+
+
+
+#bottom p{
+    margin-top:0;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #161403;
+}
+
+#fae{
+    width:auto;
+    height: 25em;
+    float: right;
+    position: absolute;
+    right: 13.4vw;
+    bottom: 3.5em;
+
+}
+
+#background{
+    width: auto;
+    z-index:-1;
+}
+
+
+
+
+
+
+/* CSS */
+.button {
+  align-self: center;
+  background-color:#718a38;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color:#302B05;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 23px;
+  font-family: 'Times New Roman', Times, serif;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+ /* Handle */
+ ::-webkit-scrollbar-thumb {
+    background:#302B05;
+    border-radius: 10px;
+  }
+  
+ /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background:#D7CE97;
+  }
+      
+
+::-webkit-scrollbar{
+    background:#302B05;
+}
